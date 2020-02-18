@@ -32,13 +32,34 @@ h3{
   font-size: 24pt;
 }
 
+h4{
+  padding-left: 10%;
+  font-size: 20pt;
+  margin: 0;
+  margin-bottom: 10pt;
+}
+
 p{
   font-size: 20pt;
+  text-indent: 50pt;
+  line-height: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top:10pt;
+  margin-bottom: 10pt;
 }
 
 iframe{
   width: 1280px;
   height: 720px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 
@@ -151,7 +172,7 @@ iframe{
 }
 
 .blackLayer{
-
+  display: grid;
   width: 100%;
   height: 100%;
 
@@ -159,17 +180,27 @@ iframe{
 }
 
 .blackLayer:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.onPicText{
+  width: 100%;
+  height: 100%
 }
 
 
 .end{
   color :white;
   text-align: center;
-  font-family: sans-serif;
-  font-size: 32pt;
-  margin-top: 30%;
-  margin-bottom:30%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50pt;
+  padding-top: 30%;
+  padding-bottom:30%;
+  opacity: 0
+}
+
+.end:hover{
+  opacity: 1;
 }
 
 #video{
@@ -177,7 +208,7 @@ iframe{
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 175px;
 }
 
 #picTitle{
@@ -211,7 +242,7 @@ iframe{
 
 }
 .imgLst{
-  display:contents;
+  display: flex;
 }
 
 
@@ -240,9 +271,43 @@ iframe{
 #img07{
   display: grid;
   background-image: url(07.JPG);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: auto;
-  height: auto;
+  width: 800px;
+  height: 432px;
+}
+
+#img08{
+  display: grid;
+  background-image: url(08.GIF);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1080px;
+  height: 1920px;
+}
+
+#img09{
+  display: grid;
+  background-image: url(09.JPG);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 942px;
+  height: 1063px;
+}
+
+#img10{
+  display: grid;
+  background-image: url(10.JPG);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1080px;
+  height: 734px;
+}
+
+#date{
+  font-size: 100pt;
 }
