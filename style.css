@@ -217,7 +217,7 @@ iframe{
 
 #img05{
   display: grid;
-  background-image: url(05.jpg);
+  background-image: url(05.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -228,7 +228,7 @@ iframe{
 
 #img06{
   display: grid;
-  background-image: url(06.jpg);
+  background-image: url(06.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ iframe{
 
 #img07{
   display: grid;
-  background-image: url(07.jpg);
+  background-image: url(07.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
