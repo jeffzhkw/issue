@@ -1,0 +1,175 @@
+*{/*apply to everything on the page*/
+  box-sizing: border-box;
+}
+
+
+body, html{
+  margin: 0pt;
+  padding: 0pt;
+  background-color: #fff7ee;
+}
+
+h1{
+  margin-top: 200pt;
+  color :white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 128pt;
+  letter-spacing: 0.2em;
+  margin-bottom: 20pt;
+}
+
+h2{
+  color :white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 32pt;
+  margin: 0pt;
+}
+
+h3{
+  padding-left: 10%;
+  font-size: 24pt;
+}
+
+p{
+  font-size: 20pt;
+}
+
+iframe{
+  width: 1280px;
+  height: 720px;
+}
+
+
+.navBar{
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+.navItems{
+  display:flex;
+  margin-left: 50pt;
+  margin-right: 50pt;
+}
+
+.linkButton{
+  color: grey;
+  font-size: 20pt;
+  font-family: sans-serif;
+  background-color: black;
+
+}
+.linkButton:hover{
+  color: white;
+}
+
+.navSub{
+  display: flex;
+  margin-top:10pt;
+  margin-bottom:10pt;
+  margin-left: 20pt;
+  margin-right:20pt;
+
+}
+
+
+.main{
+  display:grid;
+}
+
+
+.heroBanner{
+  margin-top: 89.66px;
+  background-image: url(01.jpg);
+  background-size: cover; /*scale the image according to the size of element*/
+  background-repeat: no-repeat;
+  background-position: center;
+  height:720pt;
+}
+
+.content{
+  display: grid;
+  padding-left: 75pt;
+  padding-right:75pt;
+}
+.paraContainer{
+  margin: 20pt;
+}
+
+.citation{
+  margin: 0pt;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'Cardo',serif;
+  text-indent: 50pt;
+  line-height: 2em;
+}
+
+.sig{
+  margin: 0pt;
+  padding-left: 60%;
+  font-family: 'Cardo',serif;
+}
+
+.figDes{
+  text-align: center;
+  font-size: 12pt;
+  margin: 0pt;
+  color: #5e5e5e;
+  font-style:italic;
+}
+
+#img02{
+  display: grid;
+  background-image: url(02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:auto;
+}
+
+#img03{
+  display: grid;
+  background-image: url(03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:auto;
+}
+
+#img04{
+  display: grid;
+  background-image: url(04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:auto;
+}
+
+.blackLayer{
+  background-color: rgba(0, 0, 0, 0.3); ;
+
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.end{
+  color :white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 32pt;
+  margin-top: 30%;
+  margin-bottom:30%;
+}
+
+#video{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
