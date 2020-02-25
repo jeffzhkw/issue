@@ -243,8 +243,9 @@ a:hover{
 
 .imgContainer{
   display: flex;
-  margin-top: 89.66px;
-  display: grid;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .picDes{
