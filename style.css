@@ -9,49 +9,54 @@ body, html{
   background-color: #fff7ee;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+}
+
 h1{
-  margin-top: 200pt;
+  margin-top: 35vmin;
   color :white;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 128pt;
-  letter-spacing: 0.2em;
-  margin-bottom: 20pt;
+  font-size: 18vmin;
+  letter-spacing: 4vmin;
+  margin-bottom: 20vmin;
 }
 
 h2{
   color :white;
   text-align: center;
   font-family: sans-serif;
-  font-size: 32pt;
+  font-size: 4vh;
   margin: 0pt;
 }
 
 h3{
-  padding-left: 10%;
-  font-size: 24pt;
+  padding-left: 8vw;
+  font-size: 3vh;
 }
 
 h4{
-  padding-left: 10%;
-  font-size: 20pt;
+  padding-left: 8vw;
+  font-size: 3vh;
   margin: 0;
   margin-bottom: 10pt;
 }
 
 p{
-  font-size: 20pt;
-  text-indent: 50pt;
+  font-size: 3vh;
+  text-indent: 6vw;
   line-height: 2em;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top:10pt;
-  margin-bottom: 10pt;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top:2vh;
+  margin-bottom: 2vh;
 }
 
 iframe{
-  width: 1280px;
-  height: 720px;
+  width: 80vw;
+  height: 80vh;
 }
 
 a{
@@ -64,60 +69,72 @@ a:hover{
 
 
 .navBar{
+  display: flex;
   position: fixed;
-  width: 100%;
+  height: 10vh;
+  width: 100vw;
+  justify-content: center;
   background-color: black;
 }
 
 .navItems{
   display:flex;
-  margin-left: 50pt;
-  margin-right: 50pt;
+  height: 100%;
+  width: 60vw;
+  justify-content: space-around;
 }
+.navSub{
+  margin-top:3vh;
+  margin-left: 1.5vw;
+  margin-right:1.5vw;
+  font-size: 3.5vh;
+  font-family: sans-serif;
+  background-color: black;
+}
+
 
 .linkButton{
   color: grey;
-  font-size: 20pt;
-  font-family: sans-serif;
-  background-color: black;
+
 
 }
 .linkButton:hover{
   color: white;
+  text-decoration: none;
+  transition-duration: 0.25s;
 }
 
-.navSub{
-  display: flex;
-  margin-top:10pt;
-  margin-bottom:10pt;
-  margin-left: 20pt;
-  margin-right:20pt;
 
-}
 
 
 .main{
-  display:grid;
+  display:flex;
+  flex-direction: column;
 }
 
 
 .heroBanner{
-  margin-top: 89.66px;
+  display: flex;
+  flex-direction: column;
   background-image: url(01.jpg);
   background-size: cover; /*scale the image according to the size of element*/
   background-repeat: no-repeat;
   background-position: center;
-  height:720pt;
+  width: 100vw;
+  height:100vh;
 }
 
 .content{
-  display: grid;
-  padding-left: 75pt;
-  padding-right:75pt;
-  margin-top: 25pt;
-  margin-bottom: 25pt;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right:10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .paraContainer{
+  display: flex;
+  flex-direction: column;
   margin: 20pt;
 }
 
@@ -132,75 +149,80 @@ a:hover{
 
 .sig{
   margin: 0pt;
-  padding-left: 60%;
+  font-size: 2.5vh;
+  padding-left: 45%;
   font-family: 'Cardo',serif;
 }
 
 .figDes{
   text-align: center;
-  font-size: 12pt;
+  font-size: 2vh;
   margin: 0pt;
   color: #5e5e5e;
   font-style:italic;
 }
 
 #img02{
-  display: grid;
+  display: flex;
+  flex-direction: column;
   background-image: url(02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height:auto;
+  height:91vh;
 }
 
 #img03{
-  display: grid;
+  display: flex;
   background-image: url(03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height:auto;
+  height:91vh;
 }
 
 #img04{
-  display: grid;
+  display: flex;
   background-image: url(04.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height:auto;
+  height:91vh;
 }
 
 .blackLayer{
-  display: grid;
+  display: flex;
   width: 100%;
   height: 100%;
-
-
 }
 
 .blackLayer:hover{
     background-color: rgba(0, 0, 0, 0.4);
+    transition-duration: 0.5s;
+
 }
 
 .onPicText{
-  width: 100%;
-  height: 100%
+  display: flex;
+  width: 100vw;
+  height: 91vh;
+  margin: 0;
+  padding: 0;
 }
-
 
 .end{
   color :white;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  font-size: 50pt;
-  padding-top: 30%;
-  padding-bottom:30%;
+  font-size: 7vh;
+  padding-top: 25vh;
+  padding-bottom:30vh;
   opacity: 0
 }
 
 .end:hover{
   opacity: 1;
+  transition-duration: 0.5s;
 }
 
 #video{
@@ -208,14 +230,14 @@ a:hover{
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 175px;
+  margin-top: 15vh;
 }
 
 #picTitle{
-  margin-top:60pt;
-  margin-bottom: 10pt;
+  margin-top:20vh;
+  margin-bottom: 5vh;
   text-align: center;
-  font-size: 60pt;
+  font-size: 8vh;
   font-family: Georgia;
 }
 
@@ -238,74 +260,75 @@ a:hover{
 .picDes:hover{
   opacity: 1;
 
-
-
 }
 .imgLst{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 
 #img05{
-  display: grid;
+  display: flex;
   background-image: url(05.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 690px;
-  height: 878px;
+  width: 33vw;
+  height: 100vh;
 
 }
 
 #img06{
-  display: grid;
+  display: flex;
   background-image: url(06.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 1200px;
-  height: 900px;
+  width: 67vw;
+  height: 100vh;
 }
 
 
 #img07{
-  display: grid;
+  display: flex;
   background-image: url(07.JPG);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 800px;
-  height: 432px;
+  width: 40vw;
+  height: 100vh;
 }
 
 #img08{
-  display: grid;
+  display: flex;
   background-image: url(08.GIF);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 1080px;
-  height: 1920px;
+  width: 50vw;
+  height: 100vh;
 }
 
 #img09{
-  display: grid;
+  display: flex;
   background-image: url(09.JPG);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 942px;
-  height: 1063px;
+  width: 50vw;
+  height: 100vh;
 }
 
 #img10{
-  display: grid;
+  display: flex;
   background-image: url(10.JPG);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 1080px;
-  height: 734px;
+  width: 50vw;
+  height: 100vh;
 }
 
 #date{
